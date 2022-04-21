@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="visual">
+      <UniqueIdentifier>{a610463b-576e-43cd-b286-26038ea86c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{264282c0-41e8-420a-a398-20135fea658f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control\source">
+      <UniqueIdentifier>{ed098233-24ac-40ce-8cb8-a29c18001f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control\header">
+      <UniqueIdentifier>{177b6805-e3db-4ef7-a049-52becb38953f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visual\header">
+      <UniqueIdentifier>{cce9daf8-ab55-44ba-952b-10ab2672b0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visual\source">
+      <UniqueIdentifier>{f94b614b-63ce-4338-acf8-9c480c801a88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>visual\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget.cpp">
+      <Filter>visual\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SweepObject.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transformator.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plan.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TriPoint.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.h">
+      <Filter>visual\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widget.h">
+      <Filter>visual\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transformator.h">
+      <Filter>control\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TriPoint.h">
+      <Filter>control\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SweepObject.h">
+      <Filter>control\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>control\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Plan.h">
+      <Filter>control\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="help.txt">
+      <Filter>visual\header</Filter>
+    </None>
+  </ItemGroup>
+</Project>

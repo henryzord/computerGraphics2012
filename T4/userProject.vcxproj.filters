@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="control">
+      <UniqueIdentifier>{8aee42af-e8ae-4e13-89af-ac64b52d05f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control\source">
+      <UniqueIdentifier>{ca9ab7ea-c10b-455a-8fc6-635c4eb60ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control\header">
+      <UniqueIdentifier>{73eb6a19-7122-4e8f-b3af-54930553ee2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{c9d87f2e-3b05-48bb-923b-cb39468ceb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\source">
+      <UniqueIdentifier>{480c3bd9-c5fb-435f-b407-11266f5d3c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\header">
+      <UniqueIdentifier>{a1bf9584-9f8a-49a8-ba5e-6df3a8f7a8c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transformator.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Control.cpp">
+      <Filter>control\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arm.cpp">
+      <Filter>object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Backhoe.cpp">
+      <Filter>object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cylinder.cpp">
+      <Filter>object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Face.cpp">
+      <Filter>object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Piston.cpp">
+      <Filter>object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TriPoint.cpp">
+      <Filter>object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BiPoint.cpp">
+      <Filter>object\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Piston.h">
+      <Filter>object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transformator.h">
+      <Filter>control\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Control.h">
+      <Filter>control\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arm.h">
+      <Filter>object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Face.h">
+      <Filter>object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cylinder.h">
+      <Filter>object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Backhoe.h">
+      <Filter>object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TriPoint.h">
+      <Filter>object\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BiPoint.h">
+      <Filter>object\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

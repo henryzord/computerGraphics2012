@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>scv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SampleCollection.cpp">
+      <Filter>mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileInterpreter.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget.cpp">
+      <Filter>scv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.h">
+      <Filter>scv</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widget.h">
+      <Filter>scv</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SampleCollection.h">
+      <Filter>mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileInterpreter.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exceptions.h">
+      <Filter>control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="control">
+      <UniqueIdentifier>{a93134b6-1b97-4a0f-b36c-1a122d3fec6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scv">
+      <UniqueIdentifier>{f7bfc275-650a-4d15-91e8-ea8f70d8d24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathematics">
+      <UniqueIdentifier>{65d07a4c-268c-4f70-aeed-f8ed51c23887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{f1969081-f104-495e-8498-2b53e4215aa7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="in.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="help.txt">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

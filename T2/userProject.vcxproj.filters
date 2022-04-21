@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\MobileObject.cpp">
+      <Filter>drawable\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tank.cpp">
+      <Filter>drawable\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arrow.cpp">
+      <Filter>drawable\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HumanTank.cpp">
+      <Filter>drawable\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CpuTank.cpp">
+      <Filter>drawable\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>scv\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>scv\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget.cpp">
+      <Filter>scv\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Transformator.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tank.h">
+      <Filter>drawable\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MobileObject.h">
+      <Filter>drawable\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HumanTank.h">
+      <Filter>drawable\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CpuTank.h">
+      <Filter>drawable\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arrow.h">
+      <Filter>drawable\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widget.h">
+      <Filter>scv\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application.h">
+      <Filter>scv\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="scv">
+      <UniqueIdentifier>{69d0486b-0afc-4bd2-b0e3-2e5d347cf213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawable">
+      <UniqueIdentifier>{8b9f6f2a-afcf-44e2-b53b-e49fbff0eb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{9008e1fe-6cb8-4874-bc83-e0fbf9b1880b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawable\source">
+      <UniqueIdentifier>{8bdff837-bb61-436f-bbb3-3bdfefec340a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawable\header">
+      <UniqueIdentifier>{8df160aa-fd75-4506-b1cb-dcd5553bb5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scv\header">
+      <UniqueIdentifier>{e9528afa-c511-41f8-aa85-178ba7a2f887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scv\source">
+      <UniqueIdentifier>{41e219b3-c8d5-4bca-a6fd-580b39dc6af8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
